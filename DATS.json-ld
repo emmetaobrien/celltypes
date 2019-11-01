@@ -1,0 +1,1034 @@
+{
+    "$schema": "https://w3id.org/dats/schema/dataset_schema.json",
+    "@type": "Dataset",
+	"identifier": { 
+		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                "@type": "Identifier",
+		"identifier": "10.5281/zenodo.3465802",
+		"identifierSource": "DOI"
+	},
+	"version": "1.0.0",
+	"privacy": "public open",
+	"licenses": [
+		{
+			"$schema": "https://w3id.org/dats/schema/license_schema.json",
+			"@type": "Licence",
+			"name": "https://alleninstitute.org/legal/terms-use/"
+		}
+	],
+	"creators": [
+		{
+			"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+			"@type": "Organization",
+			"name": "The Allen Institute for Brain Science"
+		}
+	],
+	"types": [
+		{
+			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@type": "Annotation",
+			"information": {
+				"value": "transcriptomics"
+			}
+		}
+	],
+	"title": "Allen Brain Atlas: Cell Types",
+	"description": "The mammalian brain is composed of many cell populations that differ based on their molecular, morphological, electrophysiological and functional characteristics. Classifying these cells into types is one of the essential approaches to defining the diversity of the brain's building blocks. This project seeks to characterize cortical diversity at the cellular level for several neuroanatomical areas in both mouse and human. Additional data will be released regularly, building toward a complete picture of cellular diversity of the brain, and how this diversity is conserved across species.",
+	"storedIn": {
+		"name" : "The Allen Institute for Brain Science"
+	},
+	"primaryPublications" : [
+		{
+            		"$schema": "https://w3id.org/dats/schema/publication_schema.json",
+            		"@type": "Publication",
+			"identifier": { 
+				"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                "@type": "Identifier",
+				"identifier": "https://dx.doi.org/10.1093%2Fnar%2Fgks1042"
+			},
+			"title": "Allen Brain Atlas: an integrated spatio-temporal portal for exploring the central nervous system",
+			"dates": [
+				{
+					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@type": "Date",
+					"type": {
+						"value":"Primary reference publication date"
+					},
+					"date": "2012-11-27 00:00:00"
+				}
+			],
+			"authors": [
+				{
+					"$schema": "https://w3id.org/dats/schema/person_schema.json",
+					"@type": "Person",
+				"name":"Susan M. Sunkin, Lydia Ng, Chris Lau, Tim Dolbeare, Terri L. Gilbert, Carol L. Thompson, Michael Hawrylycz, and Chinh Dang"
+				}
+			]
+		}
+	],
+	"isAbout": [
+		{
+			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@type": "BiologicalEntity",
+			"identifier": {
+		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                		"@type": "Identifier",
+				"identifier": "9483",
+				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
+			},
+			"name":"Callithrix jacchus"
+		},
+		{
+			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@type": "BiologicalEntity",
+			"identifier": {
+		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                		"@type": "Identifier",
+				"identifier": "9606",
+				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+			},
+			"name":"Homo sapiens"
+		},
+		{
+			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@type": "BiologicalEntity",
+			"identifier": {
+		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                		"@type": "Identifier",
+				"identifier": "10090",
+				"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+			},
+			"name":"Mus musculus"
+		}
+	],
+	"dates": [
+		{
+			"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+			"@type": "Date",
+			"type": {
+				"value":"CONP DATS JSON fileset creation date"
+			},
+			"date": "2019-09-23 09:24:58"
+		}
+	],
+	"keywords": [
+		{
+			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@type": "Annotation",
+			"value" : "transcriptomics"
+		}
+	],
+	"hasPart": [
+		{
+			"title":"Human cortex : middle temporal gyrus",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694416044",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Human cortex: primary visual cortex",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738610707",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Human cortex: anterior cingulate cortex",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738609876",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: primary visual cortex",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694413985",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: anterior lateral motor area",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694413179",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: anterior cingulate area",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738606142",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: primary motor area (cell data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738607155",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex, primary motor area (nuclear data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738608585",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Human thalamus: lateral geniculate nucleus",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694416667",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Mouse thalamus, dorsolateral geniculate complex",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://download.alleninstitute.org/informatics-archive/current-release/rna_seq/mouse_LGd_gene_expression_matrices_2018-06-14.zip",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Macaque thalamus: lateral geniculate nucleus",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694417889",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9483",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
+					},
+					"name":"Callithrix jacchus"
+				}
+			]
+		},
+		{
+			"title":"Human middle temporal gyrus control set",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694417624",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Human primary visual cortex, anterior cingulate cortex control set",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738609611",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Mouse primary visual cortex, anterior lateral motor area control set",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694414216",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse anterior cingulate area, primary motor area (cells and nuclei) control set",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/738604912",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Human cortex : middle temporal gyrus (previously published 2017 data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/623325693",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: primary visual cortex (previously published 2017 data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/545746562",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: primary visual cortex (previously published 2017 data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "List of links to count. FPKM and TPM data for each sample"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/545746648",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+
+			"title":"Mouse cortex: anterior lateral motor area (previously published 2017 data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq read data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/545746540",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse cortex: anterior lateral motor area (previously published 2017 data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "List of links to count. FPKM and TPM data for each sample"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/545746584",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Mouse thalamus, dorsolateral geniculate complex (previously published 2017 data)",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "RNA-Seq data"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/502999251",
+				"description": "Zipped file archive"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Human genome annotations reference",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "GTF file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/502175284",
+				"description": "Zipped GTF file of human genome annotations"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		},
+		{
+			"title":"Mouse genome annotations reference",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "GTF file "
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/502999254",
+				"description": "Zipped GTF file of mouse genome annotations"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "10090",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
+					},
+					"name":"Mus musculus"
+				}
+			]
+		},
+		{
+			"title":"Macaque genome annotations reference",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "GTF file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://celltypes.brain-map.org/api/v2/well_known_file_download/694417889",
+				"description": "Zipped GTF file of macaque genome annotations"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9483",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
+					},
+					"name":"Callithrix jacchus"
+				}
+			]
+		},
+		{
+			"title":"Cell type and transcriptomics overview",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@type": "Annotation",
+					"information": {
+						"value": "PDF file"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://help.brain-map.org/download/attachments/8323525/CellTypes_Transcriptomics_Overview.pdf",
+				"description": "Cell type and transcriptomics overview PDF document"
+			},
+			"isAbout": [
+				{
+					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@type": "BiologicalEntity",
+					"identifier": {
+		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                				"@type": "Identifier",
+						"identifier": "9606",
+						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+					},
+					"name":"Homo sapiens"
+				}
+			]
+		}
+	],
+	"extraProperties": [
+		{
+			"category": "contact",
+			"values": [
+				{
+					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		}
+	]
+}
