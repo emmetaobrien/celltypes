@@ -1,8 +1,8 @@
 {
-    "$schema": "https://w3id.org/dats/schema/dataset_schema.json",
+    "@context": "https://w3id.org/dats/schema/dataset_schema.json",
     "@type": "Dataset",
 	"identifier": { 
-		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 "@type": "Identifier",
 		"identifier": "10.5281/zenodo.3465802",
 		"identifierSource": "DOI"
@@ -11,21 +11,21 @@
 	"privacy": "public open",
 	"licenses": [
 		{
-			"$schema": "https://w3id.org/dats/schema/license_schema.json",
+			"@id": "https://w3id.org/dats/schema/license_schema.json",
 			"@type": "Licence",
 			"name": "https://alleninstitute.org/legal/terms-use/"
 		}
 	],
 	"creators": [
 		{
-			"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+			"@id": "https://w3id.org/dats/schema/organization_schema.json",
 			"@type": "Organization",
 			"name": "The Allen Institute for Brain Science"
 		}
 	],
 	"types": [
 		{
-			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 			"@type": "Annotation",
 			"information": {
 				"value": "transcriptomics"
@@ -39,17 +39,17 @@
 	},
 	"primaryPublications" : [
 		{
-            		"$schema": "https://w3id.org/dats/schema/publication_schema.json",
+            		"@id": "https://w3id.org/dats/schema/publication_schema.json",
             		"@type": "Publication",
 			"identifier": { 
-				"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+				"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
 		                "@type": "Identifier",
 				"identifier": "https://dx.doi.org/10.1093%2Fnar%2Fgks1042"
 			},
 			"title": "Allen Brain Atlas: an integrated spatio-temporal portal for exploring the central nervous system",
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
 						"value":"Primary reference publication date"
@@ -59,7 +59,7 @@
 			],
 			"authors": [
 				{
-					"$schema": "https://w3id.org/dats/schema/person_schema.json",
+					"@id": "https://w3id.org/dats/schema/person_schema.json",
 					"@type": "Person",
 				"name":"Susan M. Sunkin, Lydia Ng, Chris Lau, Tim Dolbeare, Terri L. Gilbert, Carol L. Thompson, Michael Hawrylycz, and Chinh Dang"
 				}
@@ -68,10 +68,10 @@
 	],
 	"isAbout": [
 		{
-			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 		"@type": "Identifier",
 				"identifier": "9483",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
@@ -79,10 +79,10 @@
 			"name":"Callithrix jacchus"
 		},
 		{
-			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 		"@type": "Identifier",
 				"identifier": "9606",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -90,10 +90,10 @@
 			"name":"Homo sapiens"
 		},
 		{
-			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 		"@type": "Identifier",
 				"identifier": "10090",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -103,7 +103,7 @@
 	],
 	"dates": [
 		{
-			"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+			"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 			"@type": "Date",
 			"type": {
 				"value":"CONP DATS JSON fileset creation date"
@@ -113,7 +113,7 @@
 	],
 	"keywords": [
 		{
-			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 			"@type": "Annotation",
 			"value" : "transcriptomics"
 		}
@@ -123,14 +123,14 @@
 			"title":"Human cortex : middle temporal gyrus",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -143,10 +143,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -159,14 +159,14 @@
 			"title":"Human cortex: primary visual cortex",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -179,10 +179,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -195,14 +195,14 @@
 			"title":"Human cortex: anterior cingulate cortex",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -215,10 +215,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -231,14 +231,14 @@
 			"title":"Mouse cortex: primary visual cortex",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -251,10 +251,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -267,14 +267,14 @@
 			"title":"Mouse cortex: anterior lateral motor area",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -287,10 +287,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -303,14 +303,14 @@
 			"title":"Mouse cortex: anterior cingulate area",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -323,10 +323,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -339,14 +339,14 @@
 			"title":"Mouse cortex: primary motor area (cell data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -359,10 +359,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -375,14 +375,14 @@
 			"title":"Mouse cortex, primary motor area (nuclear data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -395,10 +395,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -411,14 +411,14 @@
 			"title":"Human thalamus: lateral geniculate nucleus",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -431,10 +431,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -447,14 +447,14 @@
 			"title":"Mouse thalamus, dorsolateral geniculate complex",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -467,10 +467,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -483,14 +483,14 @@
 			"title":"Macaque thalamus: lateral geniculate nucleus",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -503,10 +503,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9483",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
@@ -519,14 +519,14 @@
 			"title":"Human middle temporal gyrus control set",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -539,10 +539,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -555,14 +555,14 @@
 			"title":"Human primary visual cortex, anterior cingulate cortex control set",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -575,10 +575,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -591,14 +591,14 @@
 			"title":"Mouse primary visual cortex, anterior lateral motor area control set",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -611,10 +611,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -627,14 +627,14 @@
 			"title":"Mouse anterior cingulate area, primary motor area (cells and nuclei) control set",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -647,10 +647,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -663,14 +663,14 @@
 			"title":"Human cortex : middle temporal gyrus (previously published 2017 data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -683,10 +683,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -699,14 +699,14 @@
 			"title":"Mouse cortex: primary visual cortex (previously published 2017 data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -719,10 +719,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -735,14 +735,14 @@
 			"title":"Mouse cortex: primary visual cortex (previously published 2017 data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "List of links to count. FPKM and TPM data for each sample"
@@ -755,10 +755,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -772,14 +772,14 @@
 			"title":"Mouse cortex: anterior lateral motor area (previously published 2017 data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq read data"
@@ -792,10 +792,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -808,14 +808,14 @@
 			"title":"Mouse cortex: anterior lateral motor area (previously published 2017 data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "List of links to count. FPKM and TPM data for each sample"
@@ -828,10 +828,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -844,14 +844,14 @@
 			"title":"Mouse thalamus, dorsolateral geniculate complex (previously published 2017 data)",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "RNA-Seq data"
@@ -864,10 +864,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -880,14 +880,14 @@
 			"title":"Human genome annotations reference",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "GTF file"
@@ -900,10 +900,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
@@ -916,14 +916,14 @@
 			"title":"Mouse genome annotations reference",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "GTF file "
@@ -936,10 +936,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -952,14 +952,14 @@
 			"title":"Macaque genome annotations reference",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "GTF file"
@@ -972,10 +972,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9483",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
@@ -988,14 +988,14 @@
 			"title":"Cell type and transcriptomics overview",
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
 			"types": [
 				{
-					"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+					"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 					"@type": "Annotation",
 					"information": {
 						"value": "PDF file"
@@ -1008,10 +1008,10 @@
 			},
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-		                		"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+		                		"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9606"
