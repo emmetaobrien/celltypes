@@ -79,6 +79,20 @@
 			"date": "2019-09-23 09:24:58"
 		}
 	],
+	"distributions": [
+	        {
+			"formats": [
+				"RNA-Seq"
+            		],
+			"size" : "2.4",
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://celltypes.brain-map.org/"
+			}
+		}
+	],
 	"keywords": [
 		{
 			"value" : "transcriptomics"
@@ -793,6 +807,30 @@
 			"values": [
 				{
 					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				},
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "29"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "48"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
 				}
 			]
 		}
