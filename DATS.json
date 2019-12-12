@@ -84,7 +84,7 @@
 			"formats": [
 				"RNA-Seq"
             		],
-			"size" : "2.4",
+			"size" : 2.4,
 		        "unit" : {
             			"value": "GB"
 		        },
@@ -807,7 +807,7 @@
 			"values": [
 				{
 					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
-				},
+				}
 			]
 		},
 		{
